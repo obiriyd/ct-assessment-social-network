@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 228, 228);
+}
+
+.header-container {
+    position: relative;
+    width: 850px;
+    height: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.main {
+    background-color: rgb(66,103,178);
+    width: 850px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 2px  2px 0 0;
+    float: left;
+}
+
+.sub {
+    background-color: white;
+    height: 50px;
+    width: 850px;
+    border-radius: 0 0 2px 2px;
+    position: relative;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.profile {
+    position: absolute;
+    background-color: rgb(66,103,178);
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
+    border: solid thin black;
+    color: rgb(17, 17, 17);
+    bottom: 15px;
+    left: 15px;
+}
+
+.title {
+    position: absolute;
+    bottom: 10px;
+    left: 170px;
+    color: white;
+}
+
+.title .name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title .category {
+    font-weight: lighter;
+}
+
+.name, .category {
+    margin: 10px;
+}
+
+.buttons ul {
+    list-style-type: none;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+.buttons li {
+    display: inline;
+    float: left;
+    background-color: rgb(250, 250, 250);
+    padding: 6px 12px;
+}
+
+.like-button {
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.follow-button {
+    border-radius: 2px 0 0 2px;
+    border-right: thin solid lightgray;
+    color: rgb(190, 190, 190);
+}
+
+.message-button {
+    border-right: thin solid lightgray;
+}
+
+.more-button {
+    border-radius: 0 2px 2px 0;
+}
+
+.sub ul {
+    position: absolute;
+    left: 200px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sub li {
+    display: inline;
+    float: left;
+    line-height: 30px;
+    padding: 0 16px;
+    border-right: solid thin rgb(221, 221, 221);
+}
+.sub a.active li {
+    border-right: none;
+}
+.sub li.last {
+    border: none;
+}
+.sub a {
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    padding: 8px 0;
+    margin: 0 0;
+}
+.sub span {
+    display: block;
+    line-height: 37px;
+}
+.sub a.active span {
+    font-weight: bold;
+    border-bottom: 5px solid rgb(66,103,178);
+    bord
+}
